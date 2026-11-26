@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Карта мира</string>
+    <string name="search_hint">Город, страна или адрес</string>
+    <string name="action_search">Найти</string>
+    <string name="action_zoom_in">Приблизить</string>
+    <string name="action_zoom_out">Отдалить</string>
+    <string name="action_world">Весь мир</string>
+    <string name="action_style">Вид карты</string>
+    <string name="action_close">Закрыть</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="style_dialog_title">Вид карты</string>
+    <string name="style_liberty">Обычная</string>
+    <string name="style_bright">Яркая</string>
+    <string name="style_positron">Светлая</string>
+    <string name="style_dark">Тёмная</string>
+    <string name="results_title">Что показать?</string>
+    <string name="nothing_found">Ничего не найдено</string>
+    <string name="loading_place">Определяем место…</string>
+    <string name="unknown_place">Название не найдено</string>
+    <string name="error_network">Нет ответа от сервиса поиска. Проверьте интернет.</string>
+    <string name="error_map">Не удалось загрузить карту. Проверьте интернет.</string>
+    <string name="copied">Координаты скопированы</string>
+</resources>
