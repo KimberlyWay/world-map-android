@@ -223,7 +223,8 @@ class MainActivity : Activity() {
         infoCard.visibility = View.VISIBLE
         infoTitle.text = place.name
         infoAddress.text = place.address
-        infoAddress.visibility = if (place.address.isEmpty()) View.GONE else View.VISIBLE
+        val showAddress = place.address.isNotEmpty() && place.address != place.name
+        infoAddress.visibility = if (showAddress) View.VISIBLE else View.GONE
         infoCoordinates.text = GeoApi.formatCoordinates(place.lat, place.lon)
     }
 
